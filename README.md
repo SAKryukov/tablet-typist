@@ -1,1 +1,3 @@
-# tablet-typist
+# Tablet Typist
+
+A personal communication tool
