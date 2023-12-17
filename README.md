@@ -2,4 +2,4 @@
 
 A personal communication tool
 
-[Start online](https://sakryukov.github.io/tablet-typist/code)
+[Start online](https://sakryukov.github.io/tablet-typist/code/index.html)
