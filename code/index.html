@@ -6,19 +6,31 @@
             * { font-family: sans-serif; margin: 0; padding: 0; }
             body, html, main { height: 100%; }
             body { display: flex; flex-direction: column; }
-            main { overflow: auto; word-wrap: break-word; }
-            div { display: inline-block; text-align: center; vertical-align: middle; font-size: 300%; width: 2em; height: 2em; text-align: center; }
+            main { overflow: auto; word-wrap: break-word; border-top: thin solid gray; border-bottom: thin solid gray; }
+            div { display: inline-block; text-align: center; vertical-align: middle; font-size: 460%; width: 1.4em; height: 1.4em; text-align: center; }
             div { border: solid thin black; border-radius: 10px; margin-left: 0.2em; margin-top: 0.2em; }
             div { display: inline-flex; align-items: center; justify-content: center; }
+            div { background-color: white; }
+            main { padding-right: 0.2em; }
+            div.long { width: 90%; height: 0.6em; }
+            div:hover { background-color: lightgreen; }
+            div.down { background-color: crimson; color: yellow; }
+            main { background-color: aliceblue; }
             main p { margin-top: 3em; margin-bottom: 3em; }
+            header, footer { padding: 0.2em 1em 0.2em 1em; }
+            header label:last-of-type { margin-left: 1em; }
+            footer input { width: 100%; border: none; }
+            main section:first-of-type { display: none; }
         </style>
     </head>
     <body>
         <header>
-            <label><input type="radio"/>English</label>
-            <label><input type="radio" checked="true"/>Russian</label>
+            <label><input type="radio" name="language"/> English</label>
+            <label><input type="radio" checked="true" name="language"/> Russian</label>
         </header>
         <main>
+            <section></section>
+            <section></section>
         </main>
         <footer>
             <input type="text"></input>
