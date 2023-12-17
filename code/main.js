@@ -64,4 +64,6 @@ window.onload = () => {
     addKeySet(Russian, elements.containerRussian);
     addKey(" ", elements.main).classList.add(definitionSet.classLong);
 
+    elements.output.focus();
+
 };
